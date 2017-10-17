@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>超链接变色</title>
+	<style type="text/css">
+	.aa{
+		font-size: 60px;
+		font-family: 楷体;
+	}
+	.aa:hover{
+		text-decoration: underline;
+		color: #009ACD;
+	}
+
+	.head{
+		width: 100%;
+		font-size: 20px;
+		font-family: 黑体;
+		background-color: rgb(231, 232, 227);
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		padding: 5px 40px;
+		color: black;
+	}
+	a.head_a:hover{
+		color: #009ACD;
+		background-color: black;
+	}
+	ul{
+		margin: 0px;
+		padding-left:30px;
+		line-height: 40px;
+	}
+	li{
+		display: inline-block;   /*转化为行内块元素*/
+
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<a href="#" class="aa">当然是<font color="#009ACD">Z</font>QH</a>
+		<input type="text">
+		<input type="submit" value="Go"  style="background-color: red">
+	</div>
+	<div class="head">
+		<ul>
+			<li><a href="#" class="head_a">HTML/CSS</a></li>
+			<li><a href="#" class="head_a">JavaScript</a></li>
+			<li><a href="#" class="head_a">Server Side</a></li>
+			<li><a href="#" class="head_a">ASP.NET</a></li>
+			<li><a href="#" class="head_a">XML</a></li>
+			<li><a href="#" class="head_a">Web Services</a></li>
+			<li><a href="#" class="head_a">Web Building</a></li>
+		</ul>
+	</div>
+</body>
+</html>
